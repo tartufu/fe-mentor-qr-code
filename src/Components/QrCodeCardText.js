@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 export default function QrCodeCardText() {
   return (
     <Card.Body style={{ fontFamily: "Outfit" }}>
-      <Card.Title>
+      <Card.Title style={{ fontWeight: "bold" }}>
         Improve your front-end skills by building projects
       </Card.Title>
       <Card.Text>
