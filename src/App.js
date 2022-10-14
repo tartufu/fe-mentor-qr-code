@@ -6,7 +6,10 @@ import QrCodeCard from "./Components/QrCodeCard";
 
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: "hsl(212, 45%, 89%)" }}>
+    <div
+      className="App"
+      style={{ backgroundColor: "hsl(212, 45%, 89%)", fontFamily: "Outfit" }}
+    >
       <Container style={{ height: "100vh" }}>
         <Row className="h-100 d-flex justify-content-center align-items-center">
           <Col className="d-flex justify-content-center">

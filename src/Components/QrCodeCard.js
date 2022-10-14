@@ -11,8 +11,7 @@ export default function QrCodeCard() {
           style={{ borderRadius: "8px" }}
         />
       </div>
-
-      <Card.Body>
+      <Card.Body style={{ fontFamily: "Outfit" }}>
         <Card.Title>
           Improve your front-end skills by building projects
         </Card.Title>
